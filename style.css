@@ -1,0 +1,43 @@
+body
+{
+    background-color: cadetblue;
+}
+#score
+{
+    font-size: 35px;
+    margin-left: 20px;
+}
+#timer
+{
+    font-size: 35px;
+    float: right;
+    margin-right: 20px;
+}
+h1{
+    color: darkslategray;
+    background-color: lightblue;
+}
+canvas{
+    border:5px dotted rgb(143, 159, 188);
+    border-radius: 20px;
+    margin-top: 30px;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 100px 100px 50px lightsteelblue;}
+    to{box-shadow: 25px 25px 50px powderblue;}
+}
+
+.here{
+    margin-top: 10px ;
+    font-family: cursive;
+    font-size: 20px;
+}
+#showblahsketch{
+    float: right;
+    font-size: 23px;
+    margin:5px;
+    background-color: rgb(159, 195, 197);
+}
